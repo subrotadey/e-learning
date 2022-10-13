@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner from './Banner';
+import Slider from './Slider';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home</h2>
+            <Banner></Banner>
+            <Slider></Slider>
         </div>
     );
 };
